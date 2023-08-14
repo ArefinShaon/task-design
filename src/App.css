@@ -1,0 +1,47 @@
+
+.line {
+  width: 1000px;
+  height: 1000px;
+  border-left: 1px solid #00000033;
+  background: linear-gradient(#00000033, #00000033) center/100% 1px no-repeat;
+}
+
+.date,
+.date2 {
+  border-radius: 6px;
+}
+
+.date {
+  background: #3FB883;
+}
+
+.date2 {
+  background: #AEAFB2;
+}
+
+.img {
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+}
+
+.banner-title{
+  animation:move 2s infinite ease alternate;
+}
+@keyframes move{
+  from{
+      transform: translateY(-10px);
+  }
+  to{
+      transform: translateY(10px);
+  }
+}
+
+@media (max-width: 600px) {
+  .line {
+    width: 100%; 
+    height: auto; 
+    border-left: 1px solid #00000033;
+    background: linear-gradient(#00000033, #00000033) center/100% 1px no-repeat;
+
+}}
